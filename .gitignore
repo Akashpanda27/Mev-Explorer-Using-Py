@@ -1,0 +1,27 @@
+# venv and test cache files
+env/
+__pycache__
+.mypy_cache
+
+# vim temp
+*.sw?
+.*.sw?
+
+# pytest cache
+.pytest_cache/
+
+# coverage
+htmlcov
+.coverage*
+
+# don't commit cache
+cache
+
+# k8s
+.helm
+
+# env
+.envrc
+
+# pycharm
+.idea
